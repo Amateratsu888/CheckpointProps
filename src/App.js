@@ -6,7 +6,7 @@ function App() {
   const handleName = () => {alert("yoooooooo!!! Mongui bax ")}
   return (
     <>
-     <Profile >
+     <Profile bio="bjbvzjbzbzvb zjfbz" >
      
      </Profile>
     </>

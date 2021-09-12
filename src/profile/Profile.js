@@ -1,4 +1,5 @@
 import React, { Component } from 'react'
+import PropTypes from 'prop-types'
 import '../../node_modules/bootstrap/dist/css/bootstrap.min.css'
 import './style.css'
 const Profile = (props)=> {
@@ -35,5 +36,9 @@ const card = {
     borderRadius: 10,
     backgroundColor: '#fff'
 }
-
+Profile.prototype = {
+    fullName : PropTypes.string.isRequired,
+    profession : PropTypes.string.isRequired,
+    bio : PropTypes.string.isRequired,
+}
 export default Profile
